@@ -9,6 +9,6 @@ public class AirFactory : LogisticsFactory
 {
     public override ITransport CreateTransport()
     {
-        return new Planner();
+        return new Plane();
     }
 }

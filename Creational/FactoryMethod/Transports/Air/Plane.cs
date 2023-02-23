@@ -2,10 +2,10 @@
 
 namespace FactoryMethod.Transports.Air;
 
-public class Planner : ITransport
+public class Plane : ITransport
 {
     public void Deliver()
     {
-        Console.WriteLine("Planner Delivery");
+        Console.WriteLine("Plane Delivery");
     }
 }
