@@ -1,11 +1,11 @@
-## Factory Method Design Pattern – Definição e Exemplos Simplificados
+# Factory Method Design Pattern – Definição e Exemplos Simplificados
 
 O padrão de design Factory Method é um padrão criacional, isto é, ele fornece uma interface para criar objetos em uma superclasse, mas permite que as subclasses alterem o tipo de objetos que serão feitos. Esse padrão permite que uma classe adie a instanciação para suas subclasses.
 
 Isso pode ser útil em situações em que uma classe não pode antecipar o tipo de objeto que ele precisa criar.O padrão Factory Method permite uma abordagem flexível para a criação de objetos e é particularmente útil em situações em que uma classe precisa ser desacoplada das classes que precisa criar.
 
 
-<sub>Benefícios</sub>
+## Benefícios
 
 **Abstração da criação de objetos**
 
@@ -20,7 +20,7 @@ Existe uma maior flexibilidade na criação de objetos, pois permite a criação
 O padrão Factory Method facilita a manutenção de uma aplicação, pois as alterações no processo de criação do objeto podem ser feitas em um local centralizado.
 
 
-<sub>Quando usar</sub>
+## Quando usar
 
 Quando uma classe não pode antecipar o tipo de objetos que precisa criar.
 
