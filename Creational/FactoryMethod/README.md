@@ -5,22 +5,22 @@ O padrão de design Factory Method é um padrão criacional, isto é, ele fornec
 Isso pode ser útil em situações em que uma classe não pode antecipar o tipo de objeto que ele precisa criar.O padrão Factory Method permite uma abordagem flexível para a criação de objetos e é particularmente útil em situações em que uma classe precisa ser desacoplada das classes que precisa criar.
 
 
-## Benefícios
+<sub>Benefícios</sub>
 
-# Abstração da criação de objetos
+**Abstração da criação de objetos**
 
 Existe uma separação clara do processo de criação de objetos do restante do aplicação.
 
-# Aumenta a Flexibilidade
+**Aumenta a Flexibilidade**
 
 Existe uma maior flexibilidade na criação de objetos, pois permite a criação de diferentes tipos sem a necessidade de instanciação explícita.
 
-# Fácil manutenção
+**Fácil manutenção**
 
 O padrão Factory Method facilita a manutenção de uma aplicação, pois as alterações no processo de criação do objeto podem ser feitas em um local centralizado.
 
 
-## Quando usar
+<sub>Quando usar</sub>
 
 Quando uma classe não pode antecipar o tipo de objetos que precisa criar.
 
